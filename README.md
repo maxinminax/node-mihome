@@ -60,5 +60,7 @@ I only have a litte devices in Mi Ecosystem, so wellcome for all issues or new d
 ## Buy me a coffee
 
 BTC: 1E9k2s3swbTwPRgHqjNHmxkWF8hf7uN2sc
+
 ETH: 0x25b744eeb2a979f39e8375c8c9fac6db750438b1
-paypal: https://paypal.me/maxinminax
+
+Paypal: https://paypal.me/maxinminax
