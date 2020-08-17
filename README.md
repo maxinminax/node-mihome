@@ -38,7 +38,7 @@ const device = mihome.device({
   token: 'abcdefgfabcdefgfabcdefgfabcdefgf', // device token
   protocol: 'local|cloud', // optional
   parent: '1234abcd' // gateway SID for aqara-protocol device
-  refresh: 
+  refresh: 30000 // interval refresh device properties in ms
 })
 ```
 
