@@ -2,7 +2,10 @@
   "name": "@maxinminax/mihome",
   "version": "0.0.1",
   "description": "Control Mi Home devices, such as Mi Robot Vacuums, Mi Air Purifiers, Mi Smart Home Gateway (Aqara) and more",
-  "repository": "maxinminax/node-mihome",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxinminax/node-mihome.git"
+  },
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
@@ -34,5 +37,12 @@
     "glob": "^7.1.6",
     "node-fetch": "^2.6.0",
     "randomstring": "^1.1.5"
+  },
+  "bugs": {
+    "url": "https://github.com/maxinminax/node-mihome/issues"
+  },
+  "homepage": "https://github.com/maxinminax/node-mihome#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
