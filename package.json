@@ -2,6 +2,7 @@
   "name": "mihome",
   "version": "0.0.1",
   "description": "Control Mi Home devices, such as Mi Robot Vacuums, Mi Air Purifiers, Mi Smart Home Gateway (Aqara) and more",
+  "repository": "maxinminax/node-mihome",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
