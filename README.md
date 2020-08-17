@@ -21,10 +21,9 @@ const mihome = require('mihome');
 Login Mijia account to use cloud protocol. It's optional but some devices aren't supported local protocol so you need login to control that devices.
 
 ```javascript
-await mihome.miCloudProtocol.login({
-  username: 'email@example.com',
-  password: 'password'
-});
+const username = 'email@example.com';
+const password = 'password';
+await mihome.miCloudProtocol.login(username, password);
 await mihome.miCloudProtocol.getDevices(); // return all devices from your acount with all information to create device in the next step
 ```
 
