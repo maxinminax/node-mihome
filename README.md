@@ -25,6 +25,7 @@ const username = 'email@example.com';
 const password = 'password';
 await mihome.miCloudProtocol.login(username, password);
 await mihome.miCloudProtocol.getDevices(); // return all devices from your acount with all information to create device in the next step
+await mihome.miCloudProtocol.getDevices([deviceId1, deviceId2, ...]); // get devies information from list ids
 ```
 
 Create device:
@@ -38,7 +39,7 @@ const device = mihome.device({
   protocol: 'local|cloud', // optional
   parent: '1234abcd' // gateway SID for aqara-protocol device
   refresh: 30000 // interval refresh device properties in ms
-})
+});
 ```
 
 List properties and methods of device can be found at ./devices folder
