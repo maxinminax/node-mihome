@@ -40,6 +40,11 @@ const device = mihome.device({
   parent: '1234abcd' // gateway SID for aqara-protocol device
   refresh: 30000 // interval refresh device properties in ms
 });
+device.on('properties', (data) => {
+  console.log(properties);
+});
+await device.init(); // start connect and interval load properties
+device.destroy();
 ```
 
 List properties and methods of device can be found at ./devices folder
