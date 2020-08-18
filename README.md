@@ -41,15 +41,13 @@ Create device:
 
 ```javascript
 const device = mihome.device({
-  model: 'zhimi.aircondition.v1', // device model
+  id: '100000', // required, device id
+  model: 'zhimi.aircondition.v1', // required, device model
 
-  id: '100000', // miio-device option, device id
   address: '192.168.31.13', // miio-device option, local ip address
   token: 'abcdefgfabcdefgfabcdefgfabcdefgf', // miio-device option, device token
   refresh: 30000 // miio-device option, interval refresh device properties in ms
   
-  sid: 'abcdefgh', // aqara-device option, device sid in aqara-protocol
-  smodel: 'gateway', // aqara-device option, device model in aqara-protocol
   parent: '1234abcd', // aqara-device option, gateway SID for aqara-protocol device
 });
 device.on('properties', (data) => {
