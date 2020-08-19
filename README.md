@@ -2,9 +2,11 @@
 
 Control MiHome devices via local network or cloud.
 
-## Devices models
+## Supported devices
 
-It have many models of device, each devices have many properties and method, you can find all in ./devices folder.
+See [DEVICES.md](DEVICES.md)
+
+It have many models of device, each devices have many properties and method, you can find all in [/devices](/devices) folder.
 
 ## Installation
 
