@@ -33,7 +33,7 @@ await mihome.miCloudProtocol.login(username, password);
 Cloud methods
 
 ```javascript
-await mihome.miCloudProtocol.getDevices(); // return all devices from your acount with all information to create device in the next step
+await mihome.miCloudProtocol.getDevices(); // return all devices from your acount with all information (deviceId, token, model ...) to create device in the next step
 await mihome.miCloudProtocol.getDevices([deviceId1, deviceId2, ...]); // get devices information from list ids
 ```
 
@@ -53,17 +53,32 @@ const device = mihome.device({
 device.on('properties', (data) => {
   console.log(properties);
 });
+await device.setPower(true); // call the method
 await device.init(); // start connect and interval load properties
 device.destroy();
 ```
 
 List properties and methods of device can be found at ./devices folder
 
+## Compare with other libraries
+
+The populate nodejs package for xiaomi devices current is miio: https://github.com/aholstenson/miio
+
+| | node-mihome | miio |
+| :--- |:----: | :-----:|
+| implement miio protocol | **yes** | **yes** |
+| implement miot protocol (for many device exp. mi purifier 3) | **yes** | no |
+| implement aqara protocol (for zigbee devices) | **full** | no (except read actions) |
+| implement micloud protocol (easy to view the device token and many useful information, control devices from internet, control devices which not allow from LAN, ...) | **yes** | no |
+| number of deviec | **large** | medium |
+| update | **usually** | a long time since last update |
+
+
 ## Todos list
 
 - [x] Implement miio-protocol: https://github.com/OpenMiHome/mihome-binary-protocol/blob/master/doc/PROTOCOL.md
 - [x] Implement aqara-protocol: http://docs.opencloud.aqara.com/en/development/gateway-LAN-communication/
-- [x] Implement micloud-protocol
+- [x] Implement micloud-protocol: cloud login, access device information (model, token, ...), update device, ...
 - [ ] Implement ble-protocol: for bluetooth devices
 - [ ] Documents
 - [ ] Add more devics
