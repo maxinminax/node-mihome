@@ -25,7 +25,7 @@
       <td>lumi.ctrl_86plug.aq1</td>
       <td>Aqara Wall Outlet</td>
       <td><img src="http://static.home.mi.com/app/image/get/file/developer_1551947140bbugrsl6.png" width="100"></td>
-      <td><ul><li>getPower</li><li>getVoltage</li><li>getPowerCapacity</li><li>getPowerConsumed</li></ul></td>
+      <td><ul><li>getPower</li><li>getPowerCapacity</li><li>getPowerConsumed</li></ul></td>
       <td><ul><li>setPower</li></ul></td>
     </tr>
     <tr>
@@ -161,7 +161,7 @@
       <td>viomi.dishwasher.v03</td>
       <td>Viomi Smart Dish Washer（Build-in）</td>
       <td><img src="http://static.home.mi.com/app/image/get/file/developer_1550041796hetf6yfp.png" width="100"></td>
-      <td><ul><li>getState</li><li>getLdjState</li><li>getSaltState</li><li>getMode</li><li>getCustomMode</li><li>getTimerRemaining</li><li>getTemperature</li></ul></td>
+      <td><ul><li>getPower</li><li>getState</li><li>getLdjState</li><li>getSaltState</li><li>getMode</li><li>getCustomMode</li><li>getTimeRemaining</li><li>getTemperature</li><li>getChildLock</li></ul></td>
       <td><ul><li>setMode</li><li>setCustomMode</li></ul></td>
     </tr>
     <tr>
@@ -193,7 +193,7 @@
       <td>viomi.waterheater.e7</td>
       <td>Viomi Smart Electric Water Heater Air (60L Dual-Tank Excellent)</td>
       <td><img src="http://static.home.mi.com/app/image/get/file/developer_15695782780cdxnt19.png" width="100"></td>
-      <td><ul><li>getPower</li><li>getMode</li><li>getTargetTemperature</li><li>getWaterLevel</li></ul></td>
+      <td><ul><li>getPower</li><li>getMode</li><li>getTemperature</li><li>getTargetTemperature</li><li>getWaterRemaining</li><li>getRodRemaining</li><li>getWaterLevel</li></ul></td>
       <td><ul><li>setPower</li><li>setMode</li><li>setTargetTemperature</li><li>setWaterLevel</li></ul></td>
     </tr>
     <tr>
