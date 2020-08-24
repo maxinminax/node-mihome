@@ -84,6 +84,13 @@
       }
     ],
 
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 150,
+        "ignoreUrls": true
+      }
+    ]
   }
 }
