@@ -72,7 +72,7 @@ The populate nodejs package for xiaomi devices current is miio: https://github.c
 | implement miot protocol (for many device exp. mi purifier 3) | **yes** | no |
 | implement aqara protocol (for zigbee devices) | **full** | no (except read actions) |
 | implement micloud protocol (easy to view the device token and many useful information, control devices from internet, control devices which not allow from LAN, ...) | **yes** | no |
-| number of deviec | **large** | medium |
+| number of devices | **large** | medium |
 | update | **usually** | a long time since last update |
 
 
