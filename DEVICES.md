@@ -89,8 +89,8 @@
       <td>lumi.gateway.v2</td>
       <td>Mi Control Hub</td>
       <td><img src="http://static.home.mi.com/app/image/get/file/developer_1551946107fwwh1e9d.png" width="100"></td>
-      <td><ul></ul></td>
-      <td><ul></ul></td>
+      <td><ul><li>getLightPower</li><li>getLuminance</li><li>getMute</li><li>getAlarmPower</li></ul></td>
+      <td><ul><li>setLightPower</li><li>setAlarmPower</li></ul></td>
     </tr>
     <tr>
       <td>11</td>
