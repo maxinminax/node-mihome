@@ -35,8 +35,10 @@ await mihome.miCloudProtocol.login(username, password);
 Cloud methods
 
 ```javascript
-await mihome.miCloudProtocol.getDevices(); // return all devices from your acount with all information (deviceId, token, model ...) to create device in the next step
-await mihome.miCloudProtocol.getDevices([deviceId1, deviceId2, ...]); // get devices information from list ids
+const options = { country: 'cn' }; // 'ru', 'us', 'tw', 'sg', 'cn', 'de' (Default: 'cn')
+await mihome.miCloudProtocol.getDevices(null, options); // return all devices from your acount with all information (deviceId, token, model ...) to create device in the next step
+await mihome.miCloudProtocol.getDevices([deviceId1, deviceId2, ...], options); // get devices information from list ids
+await mihome.miCloudProtocol.miiCall(deviceId, method, params, options); // call miio method with params via cloud protocol
 ```
 
 Create device:
