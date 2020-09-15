@@ -310,6 +310,14 @@
     </tr>
     <tr>
       <td>38</td>
+      <td>zhimi.airpurifier.v7</td>
+      <td>Mi Air Purifier Pro</td>
+      <td><img src="http://static.home.mi.com/app/image/get/file/developer_1551944689505i5ubr.png" width="100"></td>
+      <td><ul><li>getPower</li><li>getMode</li><li>getFavoriteLevel</li><li>getTemperature</li><li>getHumidity</li><li>getPM2_5</li><li>getAveragePM2_5</li><li>getLed</li><li>getLcdBrightness</li><li>getVolume</li><li>getFilterRemaining</li><li>getFilterTotal</li><li>getFilterUsed</li><li>getMotorSpeed</li><li>getMotorSpeed2</li><li>getChildLock</li></ul></td>
+      <td><ul><li>setPower</li><li>setMode</li><li>setFavoriteLevel</li><li>setDisplay</li><li>setVolume</li><li>setChildLock</li></ul></td>
+    </tr>
+    <tr>
+      <td>39</td>
       <td>zhimi.fan.za4</td>
       <td>Smartmi Standing Fan 2S</td>
       <td><img src="http://static.home.mi.com/app/image/get/file/developer_1541408255kg3xtr1j.png" width="100"></td>
