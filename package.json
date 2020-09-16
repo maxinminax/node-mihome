@@ -33,15 +33,20 @@
     "eslint-plugin-node": "^11.1.0"
   },
   "dependencies": {
+    "chalk": "^4.1.0",
     "debug": "^4.1.1",
     "glob": "^7.1.6",
     "node-fetch": "^2.6.0",
-    "randomstring": "^1.1.5"
+    "randomstring": "^1.1.5",
+    "yargs": "^16.0.3"
   },
   "bugs": {
     "url": "https://github.com/maxinminax/node-mihome/issues"
   },
   "homepage": "https://github.com/maxinminax/node-mihome#readme",
+  "bin": {
+    "miio": "./cli/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
