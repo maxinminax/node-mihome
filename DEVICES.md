@@ -340,5 +340,21 @@
       <td><ul><li>getPower</li><li>getFanLevel</li><li>getFanSwing</li><li>getSleepMode</li><li>getBuzzer</li><li>getTimer</li></ul></td>
       <td><ul><li>setPower</li><li>setFanLevel</li><li>setSleepMode</li><li>setSwing</li><li>setSwingAngle</li><li>setBuzzer</li><li>setLcdBrightness</li><li>setTimer</li></ul></td>
     </tr>
+    <tr>
+      <td>42</td>
+      <td>lumi.light.aqcn02</td>
+      <td>Aqara LED Light Bulb (Tunable White)</td>
+      <td><img src="https://cdn.cnbj2.fds.api.mi-img.com/cdn/lumi/deviceImg/lumi.light.aqcn02.png" width="100"></td>
+      <td><ul><li>getPower</li><li>getBrightness</li><li>getColorTemperature</li></ul></td>
+      <td><ul><li>setPower</li><li>setBrightness</li><li>setColorTemperature</li></ul></td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>lumi.relay.c2acn01</td>
+      <td>Aqara Wireless Relay Controller(2 Channels)</td>
+      <td><img src="https://cdn.cnbj2.fds.api.mi-img.com/cdn/lumi/deviceImg/lumi.relay.c2acn01.png" width="100"></td>
+      <td><ul><li>getPower</li><li>getLoadPower</li></ul></td>
+      <td><ul><li>setPower</li></ul></td>
+    </tr>
   </tbody>
 </table>
