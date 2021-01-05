@@ -58,7 +58,7 @@ const device = mihome.device({
   parent: '1234abcd', // aqara-device option, gateway SID for aqara-protocol compatible device
 });
 device.on('properties', (data) => {
-  console.log(properties);
+  console.log(data);
 });
 await device.setPower(true); // call the method
 await device.init(); // connect to device and poll for properties
