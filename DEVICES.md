@@ -258,7 +258,7 @@
       <td>VIOMI Internet steaming and baking all-in-one machine king (embedded)</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_1559200234f6m0l1sk.png" width="100"></td>
       <td><ul><li>getPower</li><li>getMode</li><li>getState</li><li>getWorkTime</li><li>getRemainingTime</li><li>getPrepareTime</li><li>getWaterTank</li><li>getOpened</li><li>getSteamingTargetTemperature</li><li>getSteamingTargetTimer</li><li>getBakingTargetTemperature</li><li>getBakingTargetTimer</li></ul></td>
-      <td><ul><li>setPower</li><li>setPrepare</li><li>setStopPrepare</li><li>setStart</li><li>setPause</li><li>setUnpause</li><li>setStop</li></ul></td>
+      <td><ul><li>setPower</li><li>setPrepare</li><li>setStopPrepare</li><li>setStart</li><li>setPause</li><li>setStop</li></ul></td>
     </tr>
     <tr>
       <td>32</td>
@@ -266,7 +266,7 @@
       <td>Mi Robot Vacuum-Mop P</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_156211621715fdn2i1.png" width="100"></td>
       <td><ul><li>getState</li><li>getMode</li><li>getFanLevel</li><li>getWaterLevel</li><li>getBattery</li><li>getVolume</li><li>getSideBrushRemaining</li><li>getMainBrushRemaining</li><li>getHypaRemaining</li><li>getMopRemaining</li></ul></td>
-      <td><ul><li>setCharge</li><li>setUncharge</li><li>setClean</li><li>setPause</li><li>setStop</li><li>setMode</li><li>setFanLevel</li><li>setWaterLevel</li><li>setMute</li><li>setVolume</li><li>setLanguage</li></ul></td>
+      <td><ul><li>setCharge</li><li>setClean</li><li>setPause</li><li>setStop</li><li>setMode</li><li>setFanLevel</li><li>setWaterLevel</li><li>setMute</li><li>setVolume</li><li>setLanguage</li></ul></td>
     </tr>
     <tr>
       <td>33</td>
