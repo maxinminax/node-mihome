@@ -311,8 +311,8 @@
     <tr>
       <td>38</td>
       <td>yeelink.light.strip2</td>
-      <td>Yeelight HaoShi LED Ceiling Lamp Pro</td>
-      <td><img src="https://static.home.mi.com/app/image/get/file/developer_15233531497uxs6o06.png" width="100"></td>
+      <td>Yeelight Lightstrip Plus</td>
+      <td><img src="https://static.home.mi.com/app/image/get/file/developer_1551948225adgd7h86.png" width="100"></td>
       <td><ul><li>getPower</li><li>getBrightness</li><li>getColorTemperature</li><li>getColorHue</li><li>getColorSaturation</li></ul></td>
       <td><ul><li>setPower</li><li>setBrightness</li><li>setColorTemperature</li><li>setColorHSV</li></ul></td>
     </tr>
