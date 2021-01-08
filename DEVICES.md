@@ -238,6 +238,14 @@
     </tr>
     <tr>
       <td>29</td>
+      <td>viomi.heater.v4</td>
+      <td>Viomi Kick-Line heater Pro2</td>
+      <td><img src="https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/developer_1601456647124pMb0OTWj.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=22zs4EuHdwGZgcbKrNJYey/RBFw=" width="100"></td>
+      <td><ul><li>getPower</li><li>getStatus</li><li>getMode</li><li>getTargetTemperature</li><li>getTemperature</li><li>getWorkingTime</li><li>getTimer</li><li>getHumidifierPower</li><li>getLed</li><li>getBuzzer</li></ul></td>
+      <td><ul><li>setPower</li><li>setMode</li><li>setTargetTemperature</li><li>setHumidifierPower</li></ul></td>
+    </tr>
+    <tr>
+      <td>30</td>
       <td>viomi.hood.c2</td>
       <td>Viomi Smart  Hood Cross 2</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_15591199583vejh0cw.png" width="100"></td>
@@ -245,7 +253,7 @@
       <td><ul><li>setLightPower</li><li>setPower</li><li>setFanLevel</li></ul></td>
     </tr>
     <tr>
-      <td>30</td>
+      <td>31</td>
       <td>viomi.juicer.v2</td>
       <td>Viomi High Speed Blender（Quiet Version</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_1534761442ykiht9se.png" width="100"></td>
@@ -253,7 +261,7 @@
       <td><ul></ul></td>
     </tr>
     <tr>
-      <td>31</td>
+      <td>32</td>
       <td>viomi.oven.so1</td>
       <td>VIOMI Internet steaming and baking all-in-one machine king (embedded)</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_1559200234f6m0l1sk.png" width="100"></td>
@@ -261,7 +269,7 @@
       <td><ul><li>setPower</li><li>setPrepare</li><li>setStopPrepare</li><li>setStart</li><li>setPause</li><li>setStop</li></ul></td>
     </tr>
     <tr>
-      <td>32</td>
+      <td>33</td>
       <td>viomi.vacuum.v7</td>
       <td>Mi Robot Vacuum-Mop P</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_156211621715fdn2i1.png" width="100"></td>
@@ -269,7 +277,7 @@
       <td><ul><li>setCharge</li><li>setClean</li><li>setPause</li><li>setStop</li><li>setMode</li><li>setFanLevel</li><li>setWaterLevel</li><li>setMute</li><li>setVolume</li><li>setLanguage</li></ul></td>
     </tr>
     <tr>
-      <td>33</td>
+      <td>34</td>
       <td>viomi.waterheater.e7</td>
       <td>Viomi Smart Electric Water Heater Air (60L Dual-Tank Excellent)</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_15695782780cdxnt19.png" width="100"></td>
@@ -277,7 +285,7 @@
       <td><ul><li>setPower</li><li>setMode</li><li>setTargetTemperature</li><li>setWaterLevel</li></ul></td>
     </tr>
     <tr>
-      <td>34</td>
+      <td>35</td>
       <td>xiaomi.aircondition.mt2</td>
       <td>Mi Smart Air Conditioner X (1.5HP / Inverter / New China Energy Label Level 1)</td>
       <td><img src="https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/developer_1587701173446w2axlRBx.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=0xPA4O8OsrjvQmKwfny3+BSOX/4=" width="100"></td>
@@ -285,7 +293,7 @@
       <td><ul><li>setPower</li><li>setMode</li><li>setEco</li><li>setHeater</li><li>setDryer</li><li>setSleepMode</li><li>setTarsetTemperature</li><li>setFanLevel</li><li>setVerticalSwing</li><li>setHorizontalSwing</li><li>setBuzzer</li><li>setLcdBrightness</li><li>setClean</li><li>setExamine</li></ul></td>
     </tr>
     <tr>
-      <td>35</td>
+      <td>36</td>
       <td>yeelink.light.ceiling3</td>
       <td>Yeelight LED Ceiling Light</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_1500887836qfgbqwws.png" width="100"></td>
@@ -293,7 +301,7 @@
       <td><ul><li>setPower</li><li>setBrightness</li><li>setColorTemperature</li><li>setSleepMode</li></ul></td>
     </tr>
     <tr>
-      <td>36</td>
+      <td>37</td>
       <td>yeelink.light.ceiling9</td>
       <td>Yeelight HaoShi LED Ceiling Lamp Pro</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_15233531497uxs6o06.png" width="100"></td>
@@ -301,7 +309,7 @@
       <td><ul><li>setPower</li><li>setBrightness</li><li>setColorTemperature</li><li>setSleepMode</li></ul></td>
     </tr>
     <tr>
-      <td>37</td>
+      <td>38</td>
       <td>yeelink.light.strip1</td>
       <td>Yeelight Lightstrip</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_1551948702kcy7aei4.png" width="100"></td>
@@ -309,7 +317,7 @@
       <td><ul><li>setPower</li><li>setBrightness</li><li>setColorTemperature</li><li>setColorHSV</li></ul></td>
     </tr>
     <tr>
-      <td>38</td>
+      <td>39</td>
       <td>yeelink.light.strip2</td>
       <td>Yeelight Lightstrip Plus</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_1551948225adgd7h86.png" width="100"></td>
@@ -317,7 +325,7 @@
       <td><ul><li>setPower</li><li>setBrightness</li><li>setColorTemperature</li><li>setColorHSV</li></ul></td>
     </tr>
     <tr>
-      <td>39</td>
+      <td>40</td>
       <td>yeelink.light.strip4</td>
       <td>Yeelight Willow LED Lightstrip</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_155263926836bw2kvq.png" width="100"></td>
@@ -325,7 +333,7 @@
       <td><ul><li>setPower</li><li>setBrightness</li><li>setColorTemperature</li></ul></td>
     </tr>
     <tr>
-      <td>40</td>
+      <td>41</td>
       <td>yunmi.waterpuri.s4</td>
       <td>Viomi smart water purifier S2(500G)</td>
       <td><img src="https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/developer_1594102683347TvKz9PhV.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=g51SGugwU9p30XBAQX5efu65FiY=" width="100"></td>
@@ -333,7 +341,7 @@
       <td><ul></ul></td>
     </tr>
     <tr>
-      <td>41</td>
+      <td>42</td>
       <td>zhimi.aircondition.v1</td>
       <td>Smartmi Smart Air Conditioner</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_1551943901u5fhbldk.png" width="100"></td>
@@ -341,7 +349,7 @@
       <td><ul><li>setPower</li><li>setMode</li><li>setTargetTemperature</li><li>setFanLevel</li><li>setVerticalSwing</li><li>setHorizontalSwing</li><li>setVolume</li><li>setLcdBrightness</li><li>setSleepMode</li></ul></td>
     </tr>
     <tr>
-      <td>42</td>
+      <td>43</td>
       <td>zhimi.airpurifier.ma4</td>
       <td>Mi Air Purifier 3</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_1543307568u9wu6wij.png" width="100"></td>
@@ -349,7 +357,7 @@
       <td><ul><li>setPower</li><li>setMode</li><li>setFanLevel</li><li>setBuzzer</li><li>setLcdBrightness</li><li>setChildLock</li></ul></td>
     </tr>
     <tr>
-      <td>43</td>
+      <td>44</td>
       <td>zhimi.airpurifier.mb3</td>
       <td>Mi Air Purifier 3H</td>
       <td><img src="https://cdn.awsde0.fds.api.mi-img.com/miio.files/developer_15504816557tej1pj6.png" width="100"></td>
@@ -357,7 +365,7 @@
       <td><ul><li>setPower</li><li>setMode</li><li>setFanLevel</li><li>setBuzzer</li><li>setLcdBrightness</li><li>setChildLock</li></ul></td>
     </tr>
     <tr>
-      <td>44</td>
+      <td>45</td>
       <td>zhimi.airpurifier.v7</td>
       <td>Mi Air Purifier Pro</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_1551944689505i5ubr.png" width="100"></td>
@@ -365,7 +373,7 @@
       <td><ul><li>setPower</li><li>setMode</li><li>setFavoriteLevel</li><li>setDisplay</li><li>setVolume</li><li>setChildLock</li></ul></td>
     </tr>
     <tr>
-      <td>45</td>
+      <td>46</td>
       <td>zhimi.fan.za4</td>
       <td>Smartmi Standing Fan 2S</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_1541408255kg3xtr1j.png" width="100"></td>
@@ -373,7 +381,7 @@
       <td><ul><li>setPower</li><li>setFanLevel</li><li>setSleepMode</li><li>setSwing</li><li>setSwingAngle</li><li>setBuzzer</li><li>setLcdBrightness</li><li>setTimer</li></ul></td>
     </tr>
     <tr>
-      <td>46</td>
+      <td>47</td>
       <td>zhimi.humidifier.ca1</td>
       <td>Smartmi Evaporative Humidifier</td>
       <td><img src="https://static.home.mi.com/app/image/get/file/developer_1551944227gt6o909y.png" width="100"></td>
@@ -381,7 +389,7 @@
       <td><ul><li>setPower</li><li>setBuzzer</li><li>setFanLevel</li><li>setTargetHumidity</li><li>setLedBrightness</li><li>setChildLock</li><li>setMode</li></ul></td>
     </tr>
     <tr>
-      <td>47</td>
+      <td>48</td>
       <td>zhimi.humidifier.cb1</td>
       <td>Smartmi Evaporative Humidifier</td>
       <td><img src="https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/developer_1566881006690Xccq6g7F.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;Expires=9223372036854775807&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;Signature=hGrzbHprrc2iBCFqLjolW7fR4b8=" width="100"></td>
