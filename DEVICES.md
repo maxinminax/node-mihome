@@ -385,8 +385,8 @@
       <td>zhimi.airpurifier.mb3</td>
       <td>Mi Air Purifier 3H</td>
       <td><img src="https://cdn.awsde0.fds.api.mi-img.com/miio.files/developer_15504816557tej1pj6.png" width="100"></td>
-      <td><ul><li>getPower</li><li>getMode</li><li>getFanLevel</li><li>getTemperature</li><li>getHumidity</li><li>getPM2_5</li><li>getFilterRemaining</li><li>getBuzzer</li><li>getLcdBrightness</li></ul></td>
-      <td><ul><li>setPower</li><li>setMode</li><li>setFanLevel</li><li>setBuzzer</li><li>setLcdBrightness</li><li>setChildLock</li></ul></td>
+      <td><ul><li>getPower</li><li>getMode</li><li>getFanLevel</li><li>getFavLevel</li><li>getSpeed</li><li>getSetSpeed</li><li>getTemperature</li><li>getHumidity</li><li>getPM2_5</li><li>getFilterRemaining</li><li>getBuzzer</li><li>getUseTime</li><li>getLcdBrightness</li><li>getAqiRealtimeUpdateDuration</li></ul></td>
+      <td><ul><li>setPower</li><li>setMode</li><li>setFanLevel</li><li>setFavLevel</li><li>setBuzzer</li><li>setLcdBrightness</li><li>setChildLock</li><li>setAqiRealtimeUpdateDuration</li></ul></td>
     </tr>
     <tr>
       <td>48</td>
@@ -435,6 +435,14 @@
       <td><img src="https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/developer_1566881006690Xccq6g7F.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;Expires=9223372036854775807&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;Signature=hGrzbHprrc2iBCFqLjolW7fR4b8=" width="100"></td>
       <td><ul><li>getPower</li><li>getFanLevel</li><li>getTartgetHumidity</li><li>getWaterLevel</li><li>getTemperature</li><li>getHumidity</li><li>getMode</li><li>getChildLock</li><li>getLedBrightness</li><li>getBuzzer</li></ul></td>
       <td><ul><li>setPower</li><li>setBuzzer</li><li>setFanLevel</li><li>setTargetHumidity</li><li>setLedBrightness</li><li>setChildLock</li><li>setMode</li></ul></td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>zhimi.airpurifier.mb5</td>
+      <td>Mi Air Purifier 4</td>
+      <td><img src="https://cdn.awsde0.fds.api.mi-img.com/miio.files/developer_15504816557tej1pj6.png" width="100"></td>
+      <td><ul><li>getPower</li><li>getMode</li><li>getFault</li><li>getFanLevel</li><li>getFavLevel</li><li>getAnion</li><li>getTemperature</li><li>getHumidity</li><li>getPM2_5</li><li>getFilterRemaining</li><li>getBuzzer</li><li>getLcdBrightness</li><li>getAqiRealtimeUpdateDuration</li></ul></td>
+      <td><ul><li>setPower</li><li>setMode</li><li>setFanLevel</li><li>setFavSpeed</li><li>setFavLevel</li><li>setAnion</li><li>setBuzzer</li><li>setLcdBrightness</li><li>setChildLock</li><li>setAqiRealtimeUpdateDuration</li></ul></td>
     </tr>
   </tbody>
 </table>
